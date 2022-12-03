@@ -14,6 +14,6 @@ The machine code instructions are below,
 111 BH  DI <br/>
 
 Instruction&emsp;&emsp;Machine code <br/>
-Int number&emsp;&emsp;11001101  number <br/>
-Mov reg, number&emsp;&emsp;1011wreg  number&emsp;&emsp;w:0 for byte      1 for word <br/>
+Int num&emsp;&emsp;11001101  number <br/>
+Mov reg, num&emsp;&emsp;1011wreg  number&emsp;&emsp;w:0 for byte      1 for word <br/>
 Mov DH,23 is (10110110)(23) &emsp;&emsp; Mov CX,1000 is (10111001)(232)(3)  Since:1000=3*256+232
