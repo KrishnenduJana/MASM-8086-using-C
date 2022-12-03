@@ -13,12 +13,9 @@ The machine code instructions are below,
 110 DH  SI <br/>
 111 BH  DI <br/>
 
-Instruction
-Machine code
-Int number
-11001101   number
-Mov reg, number
-1011wreg    number                 w:0 for byte      1 for word
+Instruction             Machine code
+Int number              11001101   number
+Mov reg, number         1011wreg    number                 w:0 for byte      1 for word
 Mov DH,23 is (10110110)(23)           Mov CX,1000 is (10111001)(232)(3)  Hint:1000=3*256+232
 000
 AL  AX
@@ -57,6 +54,8 @@ L:Int 33
     Int 33
     Mov AH,2
     Mov DL,65
+    
+    
 L:Int 33
     Inc DL
     Cmp DL,70
