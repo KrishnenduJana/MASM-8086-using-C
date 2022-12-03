@@ -13,7 +13,7 @@ The machine code instructions are below,
 110 DH  SI <br/>
 111 BH  DI <br/>
 
-Instruction &emsp Machine code
+Instruction             Machine code
 Int number              11001101   number
 Mov reg, number         1011wreg    number                 w:0 for byte      1 for word
 Mov DH,23 is (10110110)(23)           Mov CX,1000 is (10111001)(232)(3)  Hint:1000=3*256+232
@@ -160,4 +160,3 @@ Jmp (intersegment)
 Jmp (indirect within segment)
 11111111  md100r/m   Call:md010r/m     Intersegment 101,011
 Ret: 11000011(within segment)                            Ret: 11001011(intersegment)
-
